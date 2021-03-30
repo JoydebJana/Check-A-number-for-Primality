@@ -5,7 +5,7 @@ public class Main{
         Scanner obj=new Scanner(System.in);
         int n=obj.nextInt();
         boolean isPrime=false;
-        for(int i=2;i<n;i++){
+        for(int i=2;i<n;i++){    // for code optimization you can write i<n/2   
             if(n%i==0){
              isPrime = false;
              break;
